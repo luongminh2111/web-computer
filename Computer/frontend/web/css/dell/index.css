@@ -1,0 +1,34 @@
+.dell-index{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-left: 0;
+}
+.dell-index .header{
+    display: flex;
+}
+.dell-index .header .aside-left #slideshow .carousel-item img{
+    width: 100%;
+}
+.dell-index .header .aside-left .title{
+    width: 100%;
+    margin-left: 0;
+    height: 57px;
+    line-height: 50px;
+    text-align: center;
+    background-color: white;
+    padding-left: 30%;
+}
+.dell-index .header .admin-right{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+.dell-index .header .admin-right .title{
+    display: flex;
+    margin:10px;
+    justify-content: space-between;
+}
+.dell-index .header .admin-right .title a{
+    text-decoration: none;
+}

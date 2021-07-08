@@ -1,0 +1,271 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+
+}
+.wrap-header{
+    width: 100vw;
+    height: 200px;
+}
+.wrap-header .row-1{
+    width: 100%;
+    height: 140px;
+    background-color: #12419b;
+    border-bottom: 1px solid black;
+}
+.wrap-header .row-1 .logo{
+    margin-left: 8%;
+}
+.wrap-header .row-1 .logo a{
+    color: white;
+    display: flex;
+    font-size: xx-large;
+    margin-top: 12%;
+    text-decoration: none;
+}
+.wrap-header .row-1 .logo a i{
+    font-size: 70px;
+}
+.wrap-header .row-1 .col-md-6{
+    margin-left: -5%;
+}
+.wrap-header .row-1 .col-md-6 button{
+    margin-top: 7%;
+    background-color: white;
+}
+.wrap-header .row-1 .col-md-6 button input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.wrap-header .row-1 .col-md-2 a{
+    color: white;
+    display: flex;
+    margin-top: 18%;
+    font-size: large;
+    text-decoration: none;
+}
+.wrap-header .row-1 .col-md-2 a i{
+    font-size: 60px;
+    margin-right: 5%;
+}
+.wrap-header .row-1 .col-md-2 a p:hover{
+    color: red;
+}
+.wrap-header .row-2{
+    width: 100%;
+    height: 60px;
+    background-color: #12419b;
+}
+.wrap-header .row-2 .laptop{
+    margin-left: 8%;
+}
+.wrap-header .row-2 .col-md-1 a{
+    display: flex;
+    color: white;
+    line-height: 60px;
+    font-size: larger;
+    text-decoration: none;
+}
+.wrap-header .row-2 .laptop a i{
+    font-size: xx-large;
+    margin-top: 10%;
+}
+.wrap-header .row-2 .dell a {
+    margin-left: 25%;
+}
+.wrap-header .row-2 .hp a {
+    margin-left: 30%;
+}
+.wrap-header .row-2 .sizemd a{
+    font-size: medium;
+}
+.wrap-header .row-2 .col-md-2 a{
+    display: flex;
+    color: white;
+    line-height: 60px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.wrap .row .col-md-10{
+    background-color: #f4f4f4;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    /*color: white;*/
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings', serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.wrap .foot{
+    width: 100vw;
+    margin-top: 0;
+    background-color: whitesmoke;
+}
+.wrap .foot .top{
+    width: 100vw;
+    height: 60px;
+    margin-top: -1%;
+}
+.wrap .foot .top .col-md-3 {
+    margin-left:-5%;
+}
+.wrap .foot .top .col-md-3 a{
+    text-decoration: none;
+}
+.wrap .foot .top .col-md-3 a i{
+    font-size: 50px;
+    margin-top: 2%;
+
+}
+.wrap .foot .top .col-md-3 a h6{
+    margin-left: 20%;
+    margin-top: -15%;
+}
+.wrap .foot .top .col-md-3 a p{
+    margin-left: 20%;
+    margin-top: -5%;
+}
+#first{
+    margin-left: 10%;
+}
+.wrap .foot .bottom{
+    width: 100vw;
+    height: 300px;
+    background-color: #12419b;
+
+}
+.wrap .foot .bottom .col-12 {
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.wrap .foot .bottom .col-12 p{
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+.wrap .foot .bottom .col-12 .list-inf a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    color : white;
+}
+.wrap .foot .bottom #image {
+    display: block;
+}
+.wrap .foot .bottom .col-12 #image .bank{
+    display: inline-flex;
+}
+.wrap .foot .bottom .col-12 #image img{
+    width: 18%;
+    height: auto;
+    margin-left: 5%;
+}
